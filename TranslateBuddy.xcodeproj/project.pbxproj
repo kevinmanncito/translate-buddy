@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00491BB97ED245E0290415BB /* Pods_TranslateBuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8C5A48EED19DA2707EEFD4 /* Pods_TranslateBuddy.framework */; };
+		7749A4041C5D4FA000616416 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7749A3CB1C5D43CD00616416 /* NotificationCenter.framework */; };
+		7749A4091C5D4FA000616416 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749A4081C5D4FA000616416 /* TodayViewController.swift */; };
+		7749A40C1C5D4FA000616416 /* TodayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7749A40A1C5D4FA000616416 /* TodayViewController.xib */; };
+		7749A4101C5D4FA000616416 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7749A40E1C5D4FA000616416 /* InfoPlist.strings */; };
+		7749A4131C5D4FA000616416 /* TranslateBuddyWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7749A4031C5D4FA000616416 /* TranslateBuddyWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7749A4181C5D6C9800616416 /* Translate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EC5BD91C599CB900DA772A /* Translate.swift */; };
+		77A88E4C1C6323F90058F672 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A88E4B1C6323F90058F672 /* Alamofire.framework */; };
+		77A88E4E1C6323FD0058F672 /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A88E4D1C6323FD0058F672 /* SWXMLHash.framework */; };
+		77A88E501C63241F0058F672 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A88E4F1C63241F0058F672 /* Alamofire.framework */; };
+		77A88E521C6324220058F672 /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A88E511C6324220058F672 /* SWXMLHash.framework */; };
 		77EC5BAF1C5992F900DA772A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EC5BAE1C5992F900DA772A /* AppDelegate.swift */; };
 		77EC5BB11C5992F900DA772A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EC5BB01C5992F900DA772A /* ViewController.swift */; };
 		77EC5BB31C5992F900DA772A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77EC5BB21C5992F900DA772A /* Assets.xcassets */; };
 		77EC5BB61C5992F900DA772A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77EC5BB41C5992F900DA772A /* Main.storyboard */; };
 		77EC5BC11C5992FA00DA772A /* TranslateBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EC5BC01C5992FA00DA772A /* TranslateBuddyTests.swift */; };
 		77EC5BCC1C5992FA00DA772A /* TranslateBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EC5BCB1C5992FA00DA772A /* TranslateBuddyUITests.swift */; };
+		77EC5BDA1C599CB900DA772A /* Translate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EC5BD91C599CB900DA772A /* Translate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		7749A4111C5D4FA000616416 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77EC5BA31C5992F900DA772A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7749A4021C5D4FA000616416;
+			remoteInfo = TranslateBuddyWidget;
+		};
 		77EC5BBD1C5992FA00DA772A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 77EC5BA31C5992F900DA772A /* Project object */;
@@ -32,7 +51,33 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7749A3E41C5D43CE00616416 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7749A4131C5D4FA000616416 /* TranslateBuddyWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5D8C5A48EED19DA2707EEFD4 /* Pods_TranslateBuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TranslateBuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7749A3CB1C5D43CD00616416 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		7749A4031C5D4FA000616416 /* TranslateBuddyWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TranslateBuddyWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7749A4071C5D4FA000616416 /* TranslateBuddyWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TranslateBuddyWidget.entitlements; sourceTree = "<group>"; };
+		7749A4081C5D4FA000616416 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		7749A40B1C5D4FA000616416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TodayViewController.xib; sourceTree = "<group>"; };
+		7749A40D1C5D4FA000616416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7749A40F1C5D4FA000616416 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77A88E4B1C6323F90058F672 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Pods/../build/Release/Alamofire.framework; sourceTree = "<group>"; };
+		77A88E4D1C6323FD0058F672 /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SWXMLHash.framework; path = Pods/../build/Debug/SWXMLHash.framework; sourceTree = "<group>"; };
+		77A88E4F1C63241F0058F672 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Pods/../build/Release/Alamofire.framework; sourceTree = "<group>"; };
+		77A88E511C6324220058F672 /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SWXMLHash.framework; path = Pods/../build/Debug/SWXMLHash.framework; sourceTree = "<group>"; };
 		77EC5BAB1C5992F900DA772A /* TranslateBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TranslateBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77EC5BAE1C5992F900DA772A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77EC5BB01C5992F900DA772A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,13 +90,29 @@
 		77EC5BC71C5992FA00DA772A /* TranslateBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TranslateBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77EC5BCB1C5992FA00DA772A /* TranslateBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateBuddyUITests.swift; sourceTree = "<group>"; };
 		77EC5BCD1C5992FA00DA772A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77EC5BD91C599CB900DA772A /* Translate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Translate.swift; sourceTree = "<group>"; };
+		AA3B38CD093059D47DD41DFD /* Pods-TranslateBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TranslateBuddy.release.xcconfig"; path = "Pods/Target Support Files/Pods-TranslateBuddy/Pods-TranslateBuddy.release.xcconfig"; sourceTree = "<group>"; };
+		D385B4438B6AD2583E3915B4 /* Pods-TranslateBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TranslateBuddy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TranslateBuddy/Pods-TranslateBuddy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7749A4001C5D4FA000616416 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A88E521C6324220058F672 /* SWXMLHash.framework in Frameworks */,
+				77A88E501C63241F0058F672 /* Alamofire.framework in Frameworks */,
+				7749A4041C5D4FA000616416 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		77EC5BA81C5992F900DA772A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77A88E4E1C6323FD0058F672 /* SWXMLHash.framework in Frameworks */,
+				77A88E4C1C6323F90058F672 /* Alamofire.framework in Frameworks */,
+				00491BB97ED245E0290415BB /* Pods_TranslateBuddy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,13 +133,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7749A4051C5D4FA000616416 /* TranslateBuddyWidget */ = {
+			isa = PBXGroup;
+			children = (
+				7749A4081C5D4FA000616416 /* TodayViewController.swift */,
+				7749A40A1C5D4FA000616416 /* TodayViewController.xib */,
+				7749A40D1C5D4FA000616416 /* Info.plist */,
+				7749A40E1C5D4FA000616416 /* InfoPlist.strings */,
+				7749A4061C5D4FA000616416 /* Supporting Files */,
+			);
+			path = TranslateBuddyWidget;
+			sourceTree = "<group>";
+		};
+		7749A4061C5D4FA000616416 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7749A4071C5D4FA000616416 /* TranslateBuddyWidget.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		77EC5BA21C5992F900DA772A = {
 			isa = PBXGroup;
 			children = (
 				77EC5BAD1C5992F900DA772A /* TranslateBuddy */,
 				77EC5BBF1C5992FA00DA772A /* TranslateBuddyTests */,
 				77EC5BCA1C5992FA00DA772A /* TranslateBuddyUITests */,
+				7749A4051C5D4FA000616416 /* TranslateBuddyWidget */,
 				77EC5BAC1C5992F900DA772A /* Products */,
+				FEAB647700794FB4F3D03B0B /* Pods */,
+				830C79F35A30F39EA3DB52B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +172,7 @@
 				77EC5BAB1C5992F900DA772A /* TranslateBuddy.app */,
 				77EC5BBC1C5992FA00DA772A /* TranslateBuddyTests.xctest */,
 				77EC5BC71C5992FA00DA772A /* TranslateBuddyUITests.xctest */,
+				7749A4031C5D4FA000616416 /* TranslateBuddyWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +182,7 @@
 			children = (
 				77EC5BAE1C5992F900DA772A /* AppDelegate.swift */,
 				77EC5BB01C5992F900DA772A /* ViewController.swift */,
+				77EC5BD91C599CB900DA772A /* Translate.swift */,
 				77EC5BB21C5992F900DA772A /* Assets.xcassets */,
 				77EC5BB41C5992F900DA772A /* Main.storyboard */,
 				77EC5BB71C5992F900DA772A /* Info.plist */,
@@ -122,20 +208,64 @@
 			path = TranslateBuddyUITests;
 			sourceTree = "<group>";
 		};
+		830C79F35A30F39EA3DB52B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77A88E511C6324220058F672 /* SWXMLHash.framework */,
+				77A88E4F1C63241F0058F672 /* Alamofire.framework */,
+				77A88E4D1C6323FD0058F672 /* SWXMLHash.framework */,
+				77A88E4B1C6323F90058F672 /* Alamofire.framework */,
+				5D8C5A48EED19DA2707EEFD4 /* Pods_TranslateBuddy.framework */,
+				7749A3CB1C5D43CD00616416 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEAB647700794FB4F3D03B0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D385B4438B6AD2583E3915B4 /* Pods-TranslateBuddy.debug.xcconfig */,
+				AA3B38CD093059D47DD41DFD /* Pods-TranslateBuddy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		77EC5BAA1C5992F900DA772A /* TranslateBuddy */ = {
+		7749A4021C5D4FA000616416 /* TranslateBuddyWidget */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 77EC5BD01C5992FA00DA772A /* Build configuration list for PBXNativeTarget "TranslateBuddy" */;
+			buildConfigurationList = 7749A4161C5D4FA000616416 /* Build configuration list for PBXNativeTarget "TranslateBuddyWidget" */;
 			buildPhases = (
-				77EC5BA71C5992F900DA772A /* Sources */,
-				77EC5BA81C5992F900DA772A /* Frameworks */,
-				77EC5BA91C5992F900DA772A /* Resources */,
+				7749A3FF1C5D4FA000616416 /* Sources */,
+				7749A4001C5D4FA000616416 /* Frameworks */,
+				7749A4011C5D4FA000616416 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = TranslateBuddyWidget;
+			productName = TranslateBuddyWidget;
+			productReference = 7749A4031C5D4FA000616416 /* TranslateBuddyWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		77EC5BAA1C5992F900DA772A /* TranslateBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77EC5BD01C5992FA00DA772A /* Build configuration list for PBXNativeTarget "TranslateBuddy" */;
+			buildPhases = (
+				FC450A39556B937C593BEAF8 /* Check Pods Manifest.lock */,
+				77EC5BA71C5992F900DA772A /* Sources */,
+				77EC5BA81C5992F900DA772A /* Frameworks */,
+				77EC5BA91C5992F900DA772A /* Resources */,
+				A9C96AD624F66914F301EB59 /* Embed Pods Frameworks */,
+				178C68DB37C4D05E07EA50E6 /* Copy Pods Resources */,
+				7749A3E41C5D43CE00616416 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7749A4121C5D4FA000616416 /* PBXTargetDependency */,
 			);
 			name = TranslateBuddy;
 			productName = TranslateBuddy;
@@ -188,8 +318,13 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Freedom Software";
 				TargetAttributes = {
+					7749A4021C5D4FA000616416 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9X4D9RWGGU;
+					};
 					77EC5BAA1C5992F900DA772A = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9X4D9RWGGU;
 					};
 					77EC5BBB1C5992FA00DA772A = {
 						CreatedOnToolsVersion = 7.2;
@@ -217,11 +352,21 @@
 				77EC5BAA1C5992F900DA772A /* TranslateBuddy */,
 				77EC5BBB1C5992FA00DA772A /* TranslateBuddyTests */,
 				77EC5BC61C5992FA00DA772A /* TranslateBuddyUITests */,
+				7749A4021C5D4FA000616416 /* TranslateBuddyWidget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7749A4011C5D4FA000616416 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7749A40C1C5D4FA000616416 /* TodayViewController.xib in Resources */,
+				7749A4101C5D4FA000616416 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		77EC5BA91C5992F900DA772A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,13 +392,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		178C68DB37C4D05E07EA50E6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TranslateBuddy/Pods-TranslateBuddy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9C96AD624F66914F301EB59 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TranslateBuddy/Pods-TranslateBuddy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC450A39556B937C593BEAF8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		7749A3FF1C5D4FA000616416 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7749A4181C5D6C9800616416 /* Translate.swift in Sources */,
+				7749A4091C5D4FA000616416 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		77EC5BA71C5992F900DA772A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				77EC5BB11C5992F900DA772A /* ViewController.swift in Sources */,
 				77EC5BAF1C5992F900DA772A /* AppDelegate.swift in Sources */,
+				77EC5BDA1C599CB900DA772A /* Translate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +479,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		7749A4121C5D4FA000616416 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7749A4021C5D4FA000616416 /* TranslateBuddyWidget */;
+			targetProxy = 7749A4111C5D4FA000616416 /* PBXContainerItemProxy */;
+		};
 		77EC5BBE1C5992FA00DA772A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 77EC5BAA1C5992F900DA772A /* TranslateBuddy */;
@@ -289,6 +497,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		7749A40A1C5D4FA000616416 /* TodayViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7749A40B1C5D4FA000616416 /* Base */,
+			);
+			name = TodayViewController.xib;
+			sourceTree = "<group>";
+		};
+		7749A40E1C5D4FA000616416 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7749A40F1C5D4FA000616416 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		77EC5BB41C5992F900DA772A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -300,6 +524,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7749A4141C5D4FA000616416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TranslateBuddyWidget/TranslateBuddyWidget.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release",
+					"$(PROJECT_DIR)/build/Debug",
+				);
+				INFOPLIST_FILE = TranslateBuddyWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Freedom-Software.TranslateBuddy.TranslateBuddyWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7749A4151C5D4FA000616416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TranslateBuddyWidget/TranslateBuddyWidget.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release",
+					"$(PROJECT_DIR)/build/Debug",
+				);
+				INFOPLIST_FILE = TranslateBuddyWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Freedom-Software.TranslateBuddy.TranslateBuddyWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		77EC5BCE1C5992FA00DA772A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -382,25 +648,45 @@
 		};
 		77EC5BD11C5992FA00DA772A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D385B4438B6AD2583E3915B4 /* Pods-TranslateBuddy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release",
+					"$(PROJECT_DIR)/build/Debug",
+				);
 				INFOPLIST_FILE = TranslateBuddy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Freedom-Software.TranslateBuddy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		77EC5BD21C5992FA00DA772A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA3B38CD093059D47DD41DFD /* Pods-TranslateBuddy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release",
+					"$(PROJECT_DIR)/build/Debug",
+				);
 				INFOPLIST_FILE = TranslateBuddy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Freedom-Software.TranslateBuddy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -459,6 +745,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7749A4161C5D4FA000616416 /* Build configuration list for PBXNativeTarget "TranslateBuddyWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7749A4141C5D4FA000616416 /* Debug */,
+				7749A4151C5D4FA000616416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		77EC5BA61C5992F900DA772A /* Build configuration list for PBXProject "TranslateBuddy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -475,6 +770,7 @@
 				77EC5BD21C5992FA00DA772A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77EC5BD31C5992FA00DA772A /* Build configuration list for PBXNativeTarget "TranslateBuddyTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +779,7 @@
 				77EC5BD51C5992FA00DA772A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77EC5BD61C5992FA00DA772A /* Build configuration list for PBXNativeTarget "TranslateBuddyUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +788,7 @@
 				77EC5BD81C5992FA00DA772A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

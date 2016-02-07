@@ -1,0 +1,6 @@
+framework module Pods_TranslateBuddy {
+  umbrella header "Pods-TranslateBuddy-umbrella.h"
+
+  export *
+  module * { export * }
+}
